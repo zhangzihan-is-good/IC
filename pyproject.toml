@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rgic-connectivity"
+version = "0.1.0a3"
+description = "Reference-fitted reliability-gated connectivity for regional time series"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.23"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering",
+  "Private :: Do Not Upload",
+]
+
+[project.scripts]
+rgic = "rgic.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["rgic*"]
+
+[tool.setuptools.package-data]
+rgic = ["resources/*.md"]

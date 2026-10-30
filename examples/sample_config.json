@@ -1,0 +1,12 @@
+{
+  "lags": [-1, 1],
+  "lag_unit": "samples",
+  "tr": null,
+  "lambda_": 1.0,
+  "gamma": 0.2,
+  "delta": 0.0,
+  "cap": 0.9,
+  "quantile": 0.95,
+  "epsilon": 1e-8,
+  "tie_tolerance": 1e-12
+}
