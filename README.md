@@ -55,4 +55,4 @@ python -m unittest discover -s tests -v
 
 ## AI assistance and human responsibility
 
-Development used AI-assisted coding (vibe coding). The repository author reports human review and validation of the implementation. Automated checks cover mathematical properties, reference-state isolation, input validation, and file round trips. The author remains responsible for the code, its scientific interpretation, and release decisions.
+Development used AI-assisted coding (vibe coding). However, the author reviewed the mathematical properties, reference-state isolation, input validation, and file round-trip behavior, and remains responsible for the code, its scientific interpretation, and release decisions.
